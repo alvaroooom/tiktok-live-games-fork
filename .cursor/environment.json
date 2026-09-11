@@ -1,0 +1,17 @@
+{
+  "name": "TikTok Live Games",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "dev server",
+      "command": "npm run dev",
+      "description": "Express + Socket.io server with auto-reload on http://localhost:3000"
+    }
+  ],
+  "ports": [
+    {
+      "name": "web server",
+      "port": 3000
+    }
+  ]
+}
